@@ -1,0 +1,15 @@
+#background {
+    background-color: white;
+    background-image: url("./images/spaceImage.jpg");
+    background-repeat: repeat;
+    height: 10000px;
+    padding-top: 25px;
+}
+
+#mainDisplay {
+    background-color: #ff0066;
+    width: 800px;
+    height: 100%;
+    padding: 0px;
+    opacity: 1;
+}

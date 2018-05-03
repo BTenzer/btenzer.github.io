@@ -1,0 +1,7 @@
+#mainDisplay {
+    background-color: #ff0066;
+    background-image: url("./images/spaceImage.jpg");
+    background-repeat: repeat;
+    height: 10000px;
+    padding-top: 25px;
+}
