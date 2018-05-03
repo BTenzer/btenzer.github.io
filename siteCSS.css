@@ -1,0 +1,165 @@
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#botShadow {
+    box-shadow: 0 7px 35px -11px black;
+}
+
+.navbar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#invisiDiv {
+    margin-bottom: 50px;
+    height: 1px;
+}
+
+.divider-inside-top {
+    position: relative;
+    overflow: hidden; 
+    border-top:1px solid #ddd; 
+}
+.divider-inside-top:before {
+  content: "";
+  position: absolute; 
+  z-index: 1; 
+  width:96%;  
+  top: -10px; 
+  height: 10px; 
+  left: 2%; 
+  border-radius: 100px / 5px; 
+  box-shadow:0 0 18px rgba(0,0,0,0.6); 
+}
+
+.navShadow {
+    width: 600px;
+    height: 100%;
+}
+
+.whiteText {
+    color: white;
+}
+
+#bioBackground {
+    position: sticky;
+    background-color: #a7adac;
+    background-image: url("./images/comps1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 10000px; */
+    /* padding-top: 25px; */
+}
+
+#whiteCenter {
+    /* padding-top: 50px; */
+    background-color: white;
+    width: 800px;
+    height: 100%;
+    padding: 0px;
+    opacity: 1;
+    font-size: 1em;
+}
+
+.sleightShadow {
+    box-shadow: 12px 11px 25px 0px #ccc;
+}
+
+#bioText {
+    background-color: #343A40;
+    height: 190px;
+    width: 600px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.navPadding {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#bigBen {
+    padding-left: 3px;
+    line-height: 75px;
+    color: white;
+    font-size: 80pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+#bigTenzer {
+    line-height: 67px;
+    color: white;
+    font-size: 80pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sectionHeading {
+    background-color: #343A40;
+    height: 100px;
+    width: 600px;
+    border-radius: 20px;
+    padding-left: 3px;
+    line-height: 75px;
+    color: white;
+    font-size: 75pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.paraText {
+    width: 560px;
+    color: #343a40;
+}
+
+.myBio {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+returnTop
+
+returnTop:before {
+    text-align: center;
+    color: #343a40;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #343a40;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+returnTop:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.sectionPadding {
+    padding-bottom: 75px;
+}
