@@ -34,10 +34,6 @@
     height: 1px;
 }
 
-.someShade {
-    box-shadow: 0px 0px 20px rgb(241, 4, 4);
-}
-
 .divider-inside-top {
     position: relative;
     overflow: hidden; 
@@ -86,7 +82,7 @@
 }
 
 .sleightShadow {
-    box-shadow: 14px 11px 22px 0px #ccc;
+    box-shadow: 12px 11px 25px 0px #ccc;
 }
 
 #bioText {
@@ -138,6 +134,8 @@
     margin-top: 20px;
     margin-left: 120px;
 }
+
+returnTop
 
 returnTop:before {
     text-align: center;
