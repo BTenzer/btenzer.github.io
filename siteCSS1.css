@@ -1,10 +1,10 @@
-nav a {
+.navbar a {
     position: relative;
     text-decoration: none;
     color: white;
 }
 
-a:before {
+.navbar a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -19,7 +19,11 @@ a:before {
     transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+#botShadow {
+    box-shadow: 0 7px 35px -11px black;
+}
+
+.navbar a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -61,11 +65,14 @@ a:hover:before {
 }
 
 #bioBackground {
-    background-color: rgba(173, 20, 20, 0.726);
-    background-image: url("./images/spaceImage.jpg");
-    background-repeat: repeat;
-    height: 10000px;
-    padding-top: 25px;
+    position: sticky;
+    background-color: #a7adac;
+    background-image: url("./images/comps1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 10000px; */
+    /* padding-top: 25px; */
 }
 
 #whiteCenter {
@@ -75,6 +82,11 @@ a:hover:before {
     height: 100%;
     padding: 0px;
     opacity: 1;
+    font-size: 1em;
+}
+
+.sleightShadow {
+    box-shadow: 14px 11px 22px 0px #ccc;
 }
 
 #bioText {
@@ -82,6 +94,7 @@ a:hover:before {
     height: 190px;
     width: 600px;
     border-radius: 20px;
+    font-size: 1em;
 }
 
 .navPadding {
