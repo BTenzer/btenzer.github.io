@@ -4,7 +4,11 @@
     color: white;
 }
 
-.navbar a:before {
+.increasedFontSize {
+    font-size: 1.3em;
+}
+
+.navbar-expand-lg a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -19,11 +23,7 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-#botShadow {
-    box-shadow: 0 7px 35px -11px black;
-}
-
-.navbar a:hover:before {
+.navbar-expand-lg a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -32,6 +32,10 @@
 #invisiDiv {
     margin-bottom: 50px;
     height: 1px;
+}
+
+#botShadow {
+    box-shadow: 0 7px 35px -11px black;
 }
 
 .divider-inside-top {
@@ -128,6 +132,8 @@
 .paraText {
     width: 560px;
     color: #343a40;
+    text-indent: 2em;
+    font-size: 1em;
 }
 
 .myBio {
@@ -135,29 +141,13 @@
     margin-left: 120px;
 }
 
-returnTop
-
-returnTop:before {
-    text-align: center;
-    color: #343a40;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
+#toTop {
     left: 0;
-    background-color: #343a40;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-returnTop:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+    background-color: #343A40;
+    border-radius: 15px;
+    color: white;
+    font-size: 1em;
+    height: 2em;
 }
 
 .sectionPadding {
