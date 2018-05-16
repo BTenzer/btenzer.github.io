@@ -8,6 +8,14 @@
     font-size: 1.3em;
 }
 
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+.skewed {
+    transform: scale(2);
+}
+
 .myFont {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
@@ -33,16 +41,11 @@
   transform: scaleX(1);
 }
 
-#invisiDiv {
-    margin-bottom: 50px;
-    height: 1px;
-}
-
 #botShadow {
     box-shadow: 0 7px 35px -11px black;
 }
 
-.divider-inside-top {
+/* .divider-inside-top {
     position: relative;
     overflow: hidden; 
     border-top:1px solid #ddd; 
@@ -57,7 +60,7 @@
   left: 2%; 
   border-radius: 100px / 5px; 
   box-shadow:0 0 18px rgba(0,0,0,0.6); 
-}
+} */
 
 .navShadow {
     width: 600px;
@@ -70,8 +73,8 @@
 
 #bioBackground {
     position: sticky;
-    background-color: #a7adac;
-    background-image: url("./images/comps1.jpg");
+    background-color: white;
+    background-image: url("./images/forest3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -84,7 +87,9 @@
     padding: 0px;
     opacity: 1;
     font-size: 1em;
-    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .sleightShadow {
@@ -92,7 +97,7 @@
 }
 
 #bioText {
-    background-color: #343A40;
+    background-color: #212529;
     height: 190px;
     width: 600px;
     border-radius: 20px;
@@ -112,6 +117,18 @@
     font-family: 'Oswald', sans-serif;
 }
 
+#troublesomeP {
+    border-radius: 20px !important;
+}
+
+.borderOrangeSides {
+    border-style: solid;
+    border-width: 10px; 
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #212529;
+}
+
 #bigTenzer {
     line-height: 67px;
     color: white;
@@ -120,7 +137,9 @@
 }
 
 .sectionHeading {
-    background-color: #343A40;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212529;
     height: 100px;
     width: 600px;
     border-radius: 20px;
@@ -132,8 +151,11 @@
 }
 
 .paraText {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     width: 560px;
-    color: #ffffff;
+    color: white;
     text-indent: 2em;
     font-size: 1em;
     background-color: orangered;
@@ -142,16 +164,14 @@
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 12px 11px 25px 0px #ccc;
-}
-
-.myBio {
+    opacity: 1;
     margin-top: 20px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 #toTop {
     left: 0;
-    background-color: #343A40;
+    background-color: #212529;
     border-radius: 15px;
     color: white;
     font-size: 1em;
@@ -160,7 +180,7 @@
     text-align: center;
     margin: 10px;
     text-align: justify;
-    /* font-weight: bold; */
+    position: sticky;
 }
 
 .sectionPadding {
