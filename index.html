@@ -1,102 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="siteCSS.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ben Tenzer</title>
+	<head>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<!-- Notes: -->
-<!-- Make navbar drop sleight shadow -->
+   		<!-- Fonts -->
+   		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-</head>
-<body>
+		<link rel="stylesheet" href="v2_css_main.css">
+    	<link rel="stylesheet" href="v2_css_nav.css">
+    	<script type="text/javascript" src="#"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top increasedFontSize grayBackground" id="botShadow">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto mx-auto">
-          <li class="nav-item active navPadding">
-            <a class="nav-link" href="#">Bio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active navPadding">
-            <a class="nav-link" href="#resumeText">Resume <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active navPadding">
-            <a class="nav-link" href="#projectsText">Projects <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active navPadding">
-            <a class="nav-link" href="#contactText">Contact <span class="sr-only">(current)</span></a>
-          </li>
-          </ul>
-        </div>
-    </nav>
-  
-      <div class="fluid-container" id="bioBackground">
-        <div class="container borderOrangeSides" id="whiteCenter"> 
-        <br>
-        <br>
-          <div class="container sleightShadow" id="bioText"">
-            <p id="bigBen">ben</p>
-            <p id="bigTenzer">tenzer</p>
-          </div>
-          <br>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-          <p class="paraText">
-            Ben Tenzer is a graduate from Rutgers University, New Brunswick with an interest in programming and web development.
-          </p>
+		<title>Ben Tenzer</title>
 
-          <br>    
-          <br>
-          <div class="sectionPadding" id="resumeText"></div>
-          <div class="container sectionHeading sleightShadow">
-              <p>resume</p>
-          </div>
-          <br>
+		<script type="text/javascript">
+			
+		</script>
 
-          <p class="paraText">Aliquam euismod ligula vel arcu laoreet interdum. In tincidunt nisi a tincidunt rutrum. Etiam quis rhoncus ipsum. Duis vestibulum ligula quis neque tempor pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus magna sed nunc ullamcorper rhoncus. Cras sit amet accumsan ex, id consectetur dolor. Integer tincidunt, massa et pretium vehicula, ipsum enim gravida urna, et tempor est nisl in lorem. In non imperdiet eros, porta molestie sem. Maecenas lacinia sit amet nunc id vestibulum. Sed eu dolor et eros cursus ultrices. Ut id tellus eros. Cras leo urna, varius et malesuada id, egestas ut elit. Pellentesque vel arcu luctus, venenatis ante a, porta felis. Maecenas lorem justo, malesuada eget luctus sit amet, varius ut mauris. Aliquam nec pulvinar purus.</p>
+	</head>
 
-          <br>    
-          <br>
-          <div class="sectionPadding" id="projectsText"></div>
-          <div class="container sectionHeading sleightShadow">
-              <p id="troublesomeP">projects</p>
-          </div>
-          <br>
+	<body>
 
-          <p class="paraText">Aenean eu risus ut urna semper elementum vel sit amet mauris. Duis felis odio, pharetra tristique diam et, posuere varius quam. Nulla ut eros quis lorem feugiat condimentum. Curabitur laoreet consequat aliquam. Cras volutpat gravida tellus eget iaculis. Nam ornare quis ex eleifend tincidunt. Pellentesque eros nibh, tempus sed mattis sit amet, volutpat eget nunc. Donec eu nisi magna. Nunc scelerisque vel nibh sit amet lacinia. Integer rutrum blandit ex et pellentesque. Praesent non risus et lorem cursus luctus quis in risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus facilisis, ligula eu commodo fringilla, dui lorem tincidunt nibh, in tincidunt justo massa at turpis.</p>
+		<nav id="horizontal-nav" class="fluid-container"> 
+		<!-- navigation bar -->
 
-          <br>    
-          <br>
-          <div class="sectionPadding" id="contactText"></div>
-          <div class="container sectionHeading sleightShadow">
-              <p>contacts</p>
-          </div>
-          <br>
-          <p class="paraText">You can email me by clicking <a href="mailto:bentenzerofficial@gmail.com" class="whiteFont">here</a>. </p>	
+				<ul>
+				<!-- navigation links -->
+					<li>
+						<a href="#">About Me</a>
+					</li>
 
-          <p class="paraText">Mauris vel mi a dolor rhoncus tincidunt. Aliquam tellus metus, laoreet vel lobortis quis, posuere posuere nulla. Maecenas ut lacinia dui. Mauris vitae purus tincidunt, rhoncus nulla eu, tristique dui. Proin volutpat arcu lectus, at mattis mauris venenatis volutpat. Fusce porttitor euismod mauris, commodo rhoncus sem accumsan sit amet. Nullam sit amet eros ligula. Nulla at pharetra nisi. Nullam eu luctus mauris. Donec pulvinar metus nisl, et eleifend lacus euismod a. Praesent consectetur cursus nulla, in egestas lacus.</p>
+					<li>
+						<a href="#">Resume</a>
+					</li>
 
-          <br>    
-          <br>
+					<li>
+						<a href="#">Work</a>
+					</li>
 
-          
-          <nav class="navbar" id="toTop">
-            <div>
-                <a href="#">Top</a>
-            </div>
-          </nav>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<!-- end navigation links -->
+		</nav>
+		<!-- end navigation bar -->
 
-       </div>
-      </div>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-</body>
+		<!-- main display -->
+		<div class="fluid-container" id="bioBackground">
+		    <div class="container borderOrangeSides" id="whiteCenter"> 
+		    <br>
+		    <br>
+		        <div class="container sleightShadow" id="bioText"">
+		        	<p id="bigBen">ben</p>
+		            <p id="bigTenzer">tenzer</p>
+		        </div>
+		        <br>
+
+		        <p class="paraText">
+		       		Ben Tenzer is a graduate from Rutgers University, New Brunswick with an interest in programming and web development.</p>
+
+		        <br>    
+		        <br>
+		        <div class="sectionPadding" id="resumeText"></div>
+		        
+		        <div class="container sectionHeading sleightShadow">
+		            <p>resume</p>
+		        </div>
+		          <br>
+
+		          <p class="paraText">Aliquam euismod ligula vel arcu laoreet interdum. In tincidunt nisi a tincidunt rutrum. Etiam quis rhoncus ipsum. Duis vestibulum ligula quis neque tempor pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus magna sed nunc ullamcorper rhoncus. Cras sit amet accumsan ex, id consectetur dolor. Integer tincidunt, massa et pretium vehicula, ipsum enim gravida urna, et tempor est nisl in lorem. In non imperdiet eros, porta molestie sem. Maecenas lacinia sit amet nunc id vestibulum. Sed eu dolor et eros cursus ultrices. Ut id tellus eros. Cras leo urna, varius et malesuada id, egestas ut elit. Pellentesque vel arcu luctus, venenatis ante a, porta felis. Maecenas lorem justo, malesuada eget luctus sit amet, varius ut mauris. Aliquam nec pulvinar purus.</p>
+
+		          <br>    
+		          <br>
+		          <div class="sectionPadding" id="projectsText"></div>
+		          <div class="container sectionHeading sleightShadow">
+		              <p id="troublesomeP">projects</p>
+		          </div>
+		          <br>
+
+		          <p class="paraText">Aenean eu risus ut urna semper elementum vel sit amet mauris. Duis felis odio, pharetra tristique diam et, posuere varius quam. Nulla ut eros quis lorem feugiat condimentum. Curabitur laoreet consequat aliquam. Cras volutpat gravida tellus eget iaculis. Nam ornare quis ex eleifend tincidunt. Pellentesque eros nibh, tempus sed mattis sit amet, volutpat eget nunc. Donec eu nisi magna. Nunc scelerisque vel nibh sit amet lacinia. Integer rutrum blandit ex et pellentesque. Praesent non risus et lorem cursus luctus quis in risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus facilisis, ligula eu commodo fringilla, dui lorem tincidunt nibh, in tincidunt justo massa at turpis.</p>
+
+		          <br>    
+		          <br>
+		          <div class="sectionPadding" id="contactText"></div>
+		          <div class="container sectionHeading sleightShadow">
+		              <p>contacts</p>
+		          </div>
+		          <br>
+		          <p class="paraText">You can email me by clicking <a href="mailto:bentenzerofficial@gmail.com" class="whiteFont">here</a>. </p>	
+
+		          <p class="paraText">Mauris vel mi a dolor rhoncus tincidunt. Aliquam tellus metus, laoreet vel lobortis quis, posuere posuere nulla. Maecenas ut lacinia dui. Mauris vitae purus tincidunt, rhoncus nulla eu, tristique dui. Proin volutpat arcu lectus, at mattis mauris venenatis volutpat. Fusce porttitor euismod mauris, commodo rhoncus sem accumsan sit amet. Nullam sit amet eros ligula. Nulla at pharetra nisi. Nullam eu luctus mauris. Donec pulvinar metus nisl, et eleifend lacus euismod a. Praesent consectetur cursus nulla, in egestas lacus.</p>
+
+		          <br>    
+		          <br>
+
+		          
+		          <nav class="navbar" id="toTop">
+		            <div>
+		                <a href="#">Top</a>
+		            </div>
+		          </nav>
+
+		       </div>
+		      </div>
+		      <!-- end main display  -->
+
+
+
+
+
+
+
+
+
+
+		<!-- main display -->
+		<main class="fluid-container" style="background-color: red;" id="main-display">
+				
+
+
+		</main>
+		<!-- end main display -->
+
+		<!-- script plugins -->
+		<div>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   		</div>
+   		<!-- end script plugins -->
+
+	</body>
+
 </html>

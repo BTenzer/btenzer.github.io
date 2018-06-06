@@ -1,0 +1,135 @@
+
+* {margin: 0; padding: 0;}
+
+/* shadow options */
+
+.botShadow { /* for bottom of element */
+    box-shadow: 0 7px 35px -11px black;
+}
+
+.sleightShadow { /* for bottom right side */
+    box-shadow: 12px 11px 25px 0px #ccc;
+}
+
+/* end shadow options*/
+
+.whiteText {
+    color: white;
+}
+
+#bioBackground {
+    position: sticky;
+    background-color: white;
+    background-image: url("./images/mount1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 75px;
+}
+
+#whiteCenter {
+    background-color: white;
+    width: 800px;
+    height: 100%;
+    padding: 0px;
+    opacity: 1;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#bioText {
+    background-color: #212529;
+    height: 190px;
+    width: 600px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.navPadding {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#bigBen {
+    padding-left: 3px;
+    line-height: 75px;
+    color: white;
+    font-size: 80pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+#troublesomeP {
+    border-radius: 20px !important;
+}
+
+.borderOrangeSides {
+    border-style: solid;
+    border-width: 10px; 
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #212529;
+}
+
+#bigTenzer {
+    line-height: 67px;
+    color: white;
+    font-size: 80pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sectionHeading {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212529;
+    height: 100px;
+    width: 600px;
+    border-radius: 20px;
+    padding-left: 3px;
+    line-height: 75px;
+    color: white;
+    font-size: 75pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.paraText {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 560px;
+    color: white;
+    text-indent: 2em;
+    font-size: 1em;
+    background-color: rgb(123, 135, 160);
+    padding: 15px;
+    height: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 12px 11px 25px 0px #ccc;
+    opacity: 1;
+    margin-top: 20px;
+    /* margin-left: 120px; */
+}
+
+#resume{
+    text-indent: 0em;
+}
+
+#toTop {
+    left: 0;
+    background-color: #212529;
+    border-radius: 15px;
+    color: white;
+    font-size: 1em;
+    height: 2em;
+    width: 7.5%;
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    position: sticky;
+}
+
+.sectionPadding {
+    padding-bottom: 75px;
+}
