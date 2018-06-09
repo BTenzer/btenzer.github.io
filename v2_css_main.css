@@ -13,10 +13,6 @@
 
 /* end shadow options */
 
-.whiteText {
-    color: white;
-}
-
 #background-container {
     position: sticky;
     background-color: white;
@@ -24,10 +20,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: 65px;
+    margin-top: -35px !important;
 }
 
-#whiteCenter {
+#white-center {
     /* general properties */
     background-color: white;
     width: 800px;
@@ -53,8 +49,13 @@
     border-color: #212529;
 }
 
-#whiteCenter > .container {
-    border-radius: 15px !important;
+#white-center > .container {
+    border-radius: 10px !important;
+    margin-bottom: 35px;
+}
+
+#white-center > div {
+    margin-top: 100px;
 }
 
 /* bio heading and paragraph */
@@ -86,8 +87,6 @@
 }
 
 .sectionHeading {
-    margin-left: auto;
-    margin-right: auto;
     background-color: #212529;
     height: 100px;
     width: 600px;
@@ -96,27 +95,36 @@
     line-height: 75px;
     color: white;
     border-bottom: #ff630f solid 5px;
+
+    /* position properties */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .paraText {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    /* general properties */
     width: 560px;
-    color: #2b3035;
-    text-indent: 2em;
-    font-size: 1em;
     background-color: white;
     padding: 15px;
     height: 100%;
-    font-weight: bold;
     box-shadow: 12px 11px 25px 0px #ccc;
     opacity: 1;
-    margin-top: 35px;
     border-radius: 5px;
     border: #2b3035 solid 3px;
-}
 
+    /* text properties */
+    color: #2b3035;
+    text-indent: 2em;
+    font-size: 1em;
+    font-weight: bold;
+
+    /* position properties */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+/*
 #resAnchor, #workAnchor, #conAnchor {
     padding-bottom: 75px;
-}
+    margin-bottom: 75px;
+}*/
