@@ -12,7 +12,7 @@
     	<link rel="stylesheet" href="v2_css_nav.css">
 
     	<!-- JS sheets -->
-    	<script type="text/javascript" src="#"></script>
+    	<script type="text/javascript" src="v2_js_main.js"></script>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,6 +20,10 @@
 
 		<!-- JS scripts -->
 		<script type="text/javascript">
+
+			// function linkB() {
+			// 	window.location.href = 'https://github.com/BTenzer/btenzer.github.io';
+			// }
 
 		</script>
 		<!-- end JS scripts -->
@@ -63,7 +67,7 @@
 
 		        <div class="container sleightShadow sectionHeading" id="bioText"">
 
-		        	<p id="bigBen" class="bio-heading-text">ben</p>
+		        	<p id="bigBen" class="bio-heading-text"><span onclick="linkB()">b</span>en</p>
 
 		            <p id="bigTenzer" class="bio-heading-text">tenzer</p>
 
@@ -72,17 +76,40 @@
 		        <p class="paraText">Ben Tenzer is a graduate from Rutgers University, New Brunswick with Bachelors degrees in both Information Technology and Informatics, as well Philosophy. Due to his interests in creativity and logic, programming and web development have become two of his foremost interests.</p>
     
 		        <div id="resAnchor"></div>
+
 		        <div class="container sectionHeading sleightShadow">
 		            <p class="heading-text">resume</p>
 		        </div>
 	
 
-		        <p class="paraText">Aliquam euismod ligula vel arcu laoreet interdum. In tincidunt nisi a tincidunt rutrum. Etiam quis rhoncus ipsum. Duis vestibulum ligula quis neque tempor pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus magna sed nunc ullamcorper rhoncus. Cras sit amet accumsan ex, id consectetur dolor. Integer tincidunt, massa et pretium vehicula, ipsum enim gravida urna, et tempor est nisl in lorem. In non imperdiet eros, porta molestie sem. Maecenas lacinia sit amet nunc id vestibulum. Sed eu dolor et eros cursus ultrices. Ut id tellus eros. Cras leo urna, varius et malesuada id, egestas ut elit. Pellentesque vel arcu luctus, venenatis ante a, porta felis. Maecenas lorem justo, malesuada eget luctus sit amet, varius ut mauris. Aliquam nec pulvinar purus.</p>
+		        <div id="resume" class="paraText">
+
+		        	<h3 class="textProps">Education</h3>
+		        	<p>Rutgers University, New Brunswick - Graduated: May 2018
+		        	<span style="font-style: italic;">
+		        		<br> ~ B.A. Information Technology and Informatics
+		        		<br> ~ B.A. Philosophy
+		        	</span></p>
+		        	<h3 class="textProps">Work Experience</h3>
+		        	<p>Super Saver Wines & Spirits : : <span style="font-style: italic;">April 2018 - Present</span>
+						<br> ~ <span style="font-style: italic;">Stock Associate</span></p>
+					<p>Frattello's Ristorante & Pizzeria : : <span style="font-style: italic;">June 2017 - April 2018</span>
+						<br> ~ <span style="font-style: italic;">Delivery Driver</span></p>
+					<h3 class="textProps">Technological Experience</h3>
+					<p>Github Repository : : <span style="font-style: italic;">February 2018 - Present</span>
+						<br> ~ <a href="https://github.com/BTenzer/btenzer.github.io">A link to my Github Repository</a>
+						<br> ~ <span style="font-style: italic;">Hosted my personal site (<a href="btenzer.github.io">btenzer.github.io</a>) using Github</span>
+						<br> ~ <span style="font-style: italic;"><a href="btenzer.github.io">btenzer.github.io</a> was created from the scratch using my knowledge of HTML5, CSS, and Javascript</span></p>
+					<p>Desktop Computer Assembly / Troubleshooting : : <span style="font-style: italic;">February 2018 - Present</span>
+						<br> ~ <span style="font-style: italic;">Built several desktop computers</span>
+						<br> ~ <span style="font-style: italic;">Performed troubleshooting measures to remedy both hardware and software issues on both my own, and several other individuals' computers</span></p>
+		        </div>
 
 	    
 	
 		          <div class="sectionPadding" id="workAnchor"></div>
-		          <div class="container sectionHeading sleightShadow">
+
+		          <div id="projectsHead" class="container sectionHeading sleightShadow">
 		              <p class="heading-text">projects</p>
 		          </div>
 	
@@ -116,6 +143,17 @@
    		</div>
    		<!-- end script plugins -->
 
+
+   		<!-- under construction alert -->
+   		<script type="text/javascript">
+   			
+   			// alert("This site is currently undergoing construction.");
+
+   			document.getElementById("projectsHead").onclick=function(){
+   				window.location.href = 'https://github.com/BTenzer/btenzer.github.io';
+   			}
+   		</script>
+   		<!-- end under construction alert -->
 	</body>
 
 </html>

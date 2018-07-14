@@ -70,11 +70,12 @@ nav, main {display: block;}
     background-color: #212529;
     border-radius: 10px;
     box-shadow: 4px 4px 15px -3px black;
+    width: 45px;
 
     /* position properties */
     position: fixed;
-    bottom: 10px;
-    left: 15px;
+    bottom: 15px;
+    left: 30px;
 }
 
 #to-top:hover {
