@@ -1,0 +1,129 @@
+
+* {margin: 0px; padding: 0px;}
+nav, main {display: block;}
+
+#horizontal-nav {
+    background-color: #212529;
+    height: 65px;
+    color: white;
+    /*padding: 20px 0px 20px 0px;*/
+    text-align: center;
+    width: 100%;
+    min-width: 800px;
+    box-shadow: 0px 10px 25px 0px #0006;
+    margin: 0px auto 0px auto;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    /*border-bottom: #c61313 solid 4px;*/
+}
+
+#horizontal-nav ul {
+    padding: 15px;
+}
+
+#horizontal-nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 50px;
+}
+
+/* link styling */
+#horizontal-nav a {
+    font-size: 1.4em;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* underline animation */
+#horizontal-nav a:hover {
+	color: white;
+}
+
+#horizontal-nav a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+    height: 3px;
+	bottom: -3px;
+	left: 0px;
+	background-color: #ff630f;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+#horizontal-nav a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1.1);
+	transition: scaleX(1.1);
+}
+/* end underline animation */
+
+/* return to top navigation */
+#to-top {
+    /* general properties*/
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px -3px black;
+    width: 45px;
+
+    /* position properties */
+    position: fixed;
+    bottom: 15px;
+    left: 30px;
+}
+
+#to-top:hover {
+    border-bottom: #ff630f solid 2px;
+}
+
+#to-top a {
+    /* text properties */
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+
+    /* position properties */
+    position: relative;
+}
+
+#to-top a:hover {
+    color: white;
+}
+
+#to-top a:hover:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+/* end return to top navigation */
+
+    /*position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: #212529;
+    border-radius: 15px;
+    color: white;
+    font-size: 1em;
+    height: 2em;
+    width: 7.5%;
+    text-align: center;
+    text-align: justify;
+    position: sticky;*/

@@ -8,11 +8,11 @@
    		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
    		<!-- CSS sheets -->
-		<link rel="stylesheet" href="v2_css_main.css">
-    	<link rel="stylesheet" href="v2_css_nav.css">
+		<link rel="stylesheet" href="v3_css_main.css">
+    	<link rel="stylesheet" href="v3_css_nav.css">
 
     	<!-- JS sheets -->
-    	<script type="text/javascript" src="v2_js_main.js"></script>
+    	<script type="text/javascript" src="v3_js_main.js"></script>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,30 +30,28 @@
 
 	</head>
 
+	<!-- Version 3 Layout -->
+	<!-- AboutMe/Experience/Technologies/Contact -->
+
 	<body>
-
-		<nav id="horizontal-nav" class="fluid-container"> 
 		<!-- navigation bar -->
-
-				<ul>
-				<!-- navigation links -->
-					<li>
-						<a href="#">About Me</a>
-					</li>
-
-					<li>
-						<a href="index.html#resAnchor">Resume</a>
-					</li>
-
-					<li>
-						<a href="index.html#workAnchor">Projects</a>
-					</li>
-
-					<li>
-						<a href="index.html#conAnchor">Contact</a>
-					</li>
-				</ul>
-				<!-- end navigation links -->
+		<nav id="horizontal-nav" class="fluid-container"> 
+			<ul>
+			<!-- navigation links -->
+				<li>
+					<a href="#">About Me</a>
+				</li>
+				<li>
+					<a href="index.html#expAnchor">Experience</a>
+				</li>
+				<li>
+					<a href="index.html#techAnchor">Technologies</a>
+				</li>
+				<li>
+					<a href="index.html#conAnchor">Contact</a>
+				</li>
+			</ul>
+			<!-- end navigation links -->
 		</nav>
 		<!-- end navigation bar -->
 
@@ -65,7 +63,7 @@
 		    <div class="container borderOrangeSides" id="white-center"> 
 
 
-		        <div class="container sleightShadow sectionHeading" id="bioText"">
+		        <div class="container sleightShadow sectionHeading" id="bioText">
 
 		        	<p id="bigBen" class="bio-heading-text"><span onclick="linkB()">b</span>en</p>
 
@@ -73,67 +71,108 @@
 
 		        </div>
 
-		        <p class="paraText">Ben Tenzer is a graduate from Rutgers University, New Brunswick with Bachelors degrees in both Information Technology and Informatics, as well Philosophy. Due to his interests in creativity and logic, programming and web development have become two of his foremost interests.</p>
-    
-		        <div id="resAnchor"></div>
-
-		        <div class="container sectionHeading sleightShadow">
-		            <p class="heading-text">resume</p>
-		        </div>
+		        <p class="paraText">
+					Ben Tenzer is a graduate from Rutgers University, New Brunswick with Bachelors degrees in both Information Technology and Informatics, as well as Philosophy. Due to his interests in creativity and logic, programming and web development have become two of his foremost interests.
+				</p>
 	
-
-		        <div id="resume" class="paraText">
-
+				
+				<!-- Experience Section -->
+		        <div id="expAnchor"></div>
+		        <div class="container sectionHeading sleightShadow">
+		            <p class="heading-text">experience</p>
+		        </div>
+		        <div class="paraText">					
 		        	<h3 class="textProps">Education</h3>
 		        	<p>Rutgers University, New Brunswick - Graduated: May 2018
-		        	<span style="font-style: italic;">
-		        		<br> ~ B.A. Information Technology and Informatics
-		        		<br> ~ B.A. Philosophy
-		        	</span></p>
+		        		<span class="italics">
+		        			<br> ~ B.A. Information Technology and Informatics
+		        			<br> ~ B.A. Philosophy
+						</span>
+					</p>
 		        	<h3 class="textProps">Work Experience</h3>
-		        	<p>Super Saver Wines & Spirits : : <span style="font-style: italic;">April 2018 - Present</span>
-						<br> ~ <span style="font-style: italic;">Stock Associate</span></p>
-					<p>Frattello's Ristorante & Pizzeria : : <span style="font-style: italic;">June 2017 - April 2018</span>
-						<br> ~ <span style="font-style: italic;">Delivery Driver</span></p>
+		        	<p>Yesterday's Business Computers : : <span class="italics">July 2018 - August 2018</span>
+						<br> ~ <span class="italics">Hardware Auditor</span>
+					</p>
+		        	<p>Super Saver Wines & Spirits : : <span class="italics">April 2018 - August 2018</span>
+						<br> ~ <span class="italics">Stock Associate</span>
+					</p>
+					<p>Frattello's Ristorante & Pizzeria : : <span class="italics">June 2017 - April 2018</span>
+						<br> ~ <span class="italics">Delivery Driver</span>
+					</p>
 					<h3 class="textProps">Technological Experience</h3>
-					<p>Github Repository : : <span style="font-style: italic;">February 2018 - Present</span>
+					<p>Github Repository : : <span class="italics">Current</span>
 						<br> ~ <a href="https://github.com/BTenzer/btenzer.github.io">A link to my Github Repository</a>
-						<br> ~ <span style="font-style: italic;">Hosted my personal site (<a href="btenzer.github.io">btenzer.github.io</a>) using Github</span>
-						<br> ~ <span style="font-style: italic;"><a href="btenzer.github.io">btenzer.github.io</a> was created from the scratch using my knowledge of HTML5, CSS, and Javascript</span></p>
-					<p>Desktop Computer Assembly / Troubleshooting : : <span style="font-style: italic;">February 2018 - Present</span>
-						<br> ~ <span style="font-style: italic;">Built several desktop computers</span>
-						<br> ~ <span style="font-style: italic;">Performed troubleshooting measures to remedy both hardware and software issues on both my own, and several other individuals' computers</span></p>
+						<br> ~ <span class="italics">Hosted my personal site (<a href="btenzer.github.io">btenzer.github.io</a>) using Github</span>
+						<br> ~ <span class="italics"><a href="btenzer.github.io">btenzer.github.io</a> was created from scratch using my knowledge of HTML5, CSS, and Javascript</span>
+					</p>
+					<p>Desktop Computer Assembly / Troubleshooting : : <span class="italics">February 2018 - Present</span>
+						<br> ~ <span class="italics">Built several desktop computers</span>
+						<br> ~ <span class="italics">Performed troubleshooting measures to remedy both hardware and software issues on both my own, and several other individuals' computers</span>
+					</p>
+				</div>
+				<!-- Experience Section End -->
+
+	    
+				<!-- Technologies Section -->
+		        <div class="sectionPadding" id="techAnchor"></div>
+		        <div class="container sectionHeading sleightShadow">
+		            <p class="heading-text">technologies</p>
+				</div>
+				<div class="paraText">		
+					
+					<!-- shift all inline CSS into the css file -->
+
+					<table style="width: 100%">
+						<tr style="text-align: center;">
+							<th><h3 style="text-decoration: none; border-bottom: 2px solid #2b3035;" class="textProps">Coding</h3></th> 
+							<th><h3 style="text-decoration: none; border-bottom: 2px solid #2b3035;" class="textProps">Programs</h3></th>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ Java</h4></td> <td><h4 class="technologiesItems"> ~ MS Access</h4></td>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ Javascript</h4></td> <td><h4 class="technologiesItems"> ~ Tableu</h4></td>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ HTML5</h4></td> <td><h4 class="technologiesItems"> ~ Git</h4></td>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ CSS</h4></td> <td><h4 class="technologiesItems"> ~ Github</h4></td>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ Bootstrap</h4></td> <td><h4 class="technologiesItems"></h4></td>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ SQL</h4></td> <td><h4 class="technologiesItems"></h4></td>
+						</tr>
+						<tr style="text-align: center;">
+							<th><h3 style="text-decoration: none; border-bottom: 2px solid #2b3035;" class="textProps">Hardware</h3></th> 
+							<th><h3></h3></th>
+						</tr>
+						<tr>
+							<td><h4 class="technologiesItems"> ~ Desktop</h4></td> <td><h4 class="technologiesItems"></h4></td>
+						</tr>
+					</table>
+				</div>
+				<!-- Technologies Section End -->
+
+				<!-- Contacts Section -->
+		        <div class="sectionPadding" id="conAnchor"></div>
+		        <div class="container sectionHeading sleightShadow">
+		            <p class="heading-text">contacts</p>
 		        </div>
-
-	    
-	
-		          <div class="sectionPadding" id="workAnchor"></div>
-
-		          <div id="projectsHead" class="container sectionHeading sleightShadow">
-		              <p class="heading-text">projects</p>
-		          </div>
-	
-
-		          <p class="paraText">Aenean eu risus ut urna semper elementum vel sit amet mauris. Duis felis odio, pharetra tristique diam et, posuere varius quam. Nulla ut eros quis lorem feugiat condimentum. Curabitur laoreet consequat aliquam. Cras volutpat gravida tellus eget iaculis. Nam ornare quis ex eleifend tincidunt. Pellentesque eros nibh, tempus sed mattis sit amet, volutpat eget nunc. Donec eu nisi magna. Nunc scelerisque vel nibh sit amet lacinia. Integer rutrum blandit ex et pellentesque. Praesent non risus et lorem cursus luctus quis in risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus facilisis, ligula eu commodo fringilla, dui lorem tincidunt nibh, in tincidunt justo massa at turpis.</p>
-
-	    
-	
-		          <div class="sectionPadding" id="conAnchor"></div>
-		          <div class="container sectionHeading sleightShadow">
-		              <p class="heading-text">contacts</p>
-		          </div>
-	
-		          <p class="paraText">You can email me by clicking <a href="mailto:bentenzerofficial@gmail.com">here</a>. </p>	
-
-		          <p class="paraText">Mauris vel mi a dolor rhoncus tincidunt. Aliquam tellus metus, laoreet vel lobortis quis, posuere posuere nulla. Maecenas ut lacinia dui. Mauris vitae purus tincidunt, rhoncus nulla eu, tristique dui. Proin volutpat arcu lectus, at mattis mauris venenatis volutpat. Fusce porttitor euismod mauris, commodo rhoncus sem accumsan sit amet. Nullam sit amet eros ligula. Nulla at pharetra nisi. Nullam eu luctus mauris. Donec pulvinar metus nisl, et eleifend lacus euismod a. Praesent consectetur cursus nulla, in egestas lacus.</p>
-		    </div>
+		        <p class="paraText">You can reach me at: <a href="mailto:tenzerben@gmail.com">tenzerben@gmail.com</a>. </p>
+				<!-- Contacts Section End -->
+			</div>
 		    <!-- end white center strip -->
 		</div>
 		<!-- end full page  -->
 
+		<!-- return to top btn -->
 		<div id="to-top">
 		    <a href="index.html#">Top</a>
-	    </div>
+		</div>
+		<!-- return to top end -->
 
 		<!-- script plugins -->
 		<div>
@@ -142,7 +181,6 @@
    			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    		</div>
    		<!-- end script plugins -->
-
 
    		<!-- under construction alert -->
    		<script type="text/javascript">
