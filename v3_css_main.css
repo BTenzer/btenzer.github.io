@@ -90,7 +90,7 @@
     padding-left: 3px;
     line-height: 75px;
     color: white;
-    border-bottom: #ff630f solid 5px;
+    border-bottom: #797979 solid 5px;
 
     /* position properties */
     margin-left: auto;
@@ -141,7 +141,6 @@
     color: #2b3035;
     text-indent: 0em;
     font-size: 1em;
-    font-weight: 550;
 }
 
 /*

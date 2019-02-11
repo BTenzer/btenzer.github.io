@@ -49,7 +49,7 @@ nav, main {display: block;}
     height: 3px;
 	bottom: -3px;
 	left: 0px;
-	background-color: #ff630f;
+	background-color: #797979;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -79,7 +79,7 @@ nav, main {display: block;}
 }
 
 #to-top:hover {
-    border-bottom: #ff630f solid 2px;
+    border-bottom: #797979 solid 2px;
 }
 
 #to-top a {
